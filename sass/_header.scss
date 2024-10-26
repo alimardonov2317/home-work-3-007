@@ -29,11 +29,17 @@
             color: #f0db4f;
         }
     }
+    i{
+        display: none;
+    }
 }
 @media (max-width: 650px){
     .navbar{
         &__collection{
             display: none;
+        }
+        i{
+            display: block;
         }
     }
 }
